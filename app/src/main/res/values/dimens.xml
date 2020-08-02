@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="big_title">35dp</dimen>
+    <dimen name="medium_title">25dp</dimen>
+    <dimen name="margin_top">20dp</dimen>
+    <dimen name="padding_button">30dp</dimen>
+    <dimen name="padding_edittext">10dp</dimen>
+
+
+</resources>

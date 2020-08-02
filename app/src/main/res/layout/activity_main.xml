@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:layout_height="wrap_content"
+    tools:context=".activities.MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:src="@drawable/ic_home"
+        android:layout_margin="20dp"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/title_home"
+        android:textColor="@color/black"
+        android:textSize="@dimen/big_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="@string/welcome"
+        android:textColor="@color/grey"
+        android:textSize="@dimen/medium_title"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:hint="@string/hint_name"
+       android:padding="@dimen/padding_edittext"
+        android:id="@+id/editname"
+        android:layout_marginTop="@dimen/margin_top"
+        android:background="@drawable/edittext_bordered"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:text="@string/continue_btn"
+        android:id="@+id/btnNexte"
+        android:textColor="@color/white"
+        android:paddingLeft="@dimen/padding_button"
+        android:layout_marginTop="@dimen/margin_top"
+        android:paddingRight="@dimen/padding_button"
+        android:background="@drawable/button_blue"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content">
+
+    </Button>
+
+
+</LinearLayout>

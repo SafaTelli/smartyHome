@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.HomeActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/grey"
+        android:text="07-8-217"
+        android:id="@+id/txtDate"
+        android:fontFamily="sans-serif-condensed"
+        android:layout_marginLeft="@dimen/margin_top"
+        android:layout_marginTop="@dimen/margin_top"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:textColor="@color/black"
+        android:text="Welcome Name"
+        android:textSize="@dimen/medium_title"
+        android:layout_marginLeft="@dimen/margin_top"
+        android:id="@+id/txtName"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:weightSum="4"
+
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="8dp"
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/livingroom"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/livingroom"
+            android:layout_margin="5dp"
+            app:cardCornerRadius="8dp"
+
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/mediaroom"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/livingroom"
+
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/bathroom"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+
+            android:background="@drawable/livingroom"
+
+            android:layout_height="0dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:background="@drawable/bedroom"
+                android:layout_height="match_parent">
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>

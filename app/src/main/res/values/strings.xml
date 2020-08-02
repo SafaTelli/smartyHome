@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Smarty Home</string>
+    <string name="title_home">Smarty</string>
+    <string name="welcome">Welcome Home</string>
+    <string name="hint_name">Your Name</string>
+    <string name="continue_btn">Continue</string>
+    <string name="error_name">Name should not be empty</string>
+
+
+
+</resources>
