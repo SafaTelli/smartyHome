@@ -6,6 +6,17 @@
     <string name="continue_btn">Continue</string>
     <string name="error_name">Name should not be empty</string>
 
+    <string name="text_living">Living Room</string>
+    <string name="text_bathroom">Bathroom</string>
+    <string name="text_media">Media Room</string>
+    <string name="text_bed">Bedroom</string>
+
+    <string name="device_living">4 Devices</string>
+    <string name="device_bathroom">1 Device</string>
+    <string name="device_media">6 Devices</string>
+    <string name="device_bed">3 Devices</string>
+
+
 
 
 </resources>
